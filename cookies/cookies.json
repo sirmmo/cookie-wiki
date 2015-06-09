@@ -1,0 +1,68 @@
+{
+	"__utmt":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"__utma":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"__utmb":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"__utmc":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"__utmz":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"_ga":{
+		"type":"Technical",
+		"vendor":"Google Analytics",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"qtrans_cookie_test":{
+		"vendor":"Wordpress",
+		"type":"Technical",
+		"description":"Cookie used to test the predefined language of the browser",
+		"time":"session"
+	},
+	"post_dcm":{
+		"type":"Technical",
+		"vendor":"po.st",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"post_uuid":{
+		"type":"Technical",
+		"vendor":"po.st",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"UID":{
+		"type":"Technical",
+		"vendor":"scorecardresearch.com",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	},
+	"UIDR":{
+		"type":"Technical",
+		"vendor":"scorecardresearch.com",
+		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
+		"time":"10 minutes"
+	}
+}

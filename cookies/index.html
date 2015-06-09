@@ -18,9 +18,10 @@
       $(function(){
         if (window.location.hash){
           var cookie = window.location.hash.split("#")[1];
-          $.getJSON(cookie+".json", function(data){
+          $.getJSON("cookie.json", function(data){
+            var d = data[cookie];
             window.title += cookie;
-            $("#main").text(JSON.stringify(data));
+            $("#main").text(JSON.stringify(d));
           });
         }
       });
