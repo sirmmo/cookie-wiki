@@ -64,5 +64,11 @@
 		"vendor":"scorecardresearch.com",
 		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
 		"time":"10 minutes"
+	},
+	"cookie_notice_accepted":{
+		"type":"Technical",
+		"vendor":"any",
+		"description":"Used to store if the user accepted the cookie notice.",
+		"time":"Permanent"
 	}
 }
