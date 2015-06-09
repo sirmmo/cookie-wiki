@@ -8,7 +8,7 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <h1>Cookie Wiki - <span id="cookie-name"></span> <small><span class="cookie-vendor"></span></small></h1>
+        <h1>Cookie Wiki - <span class="cookie-name"></span> <small><span class="cookie-vendor"></span></small></h1>
       </div>
     </div>
     <section id="main" class="container">
@@ -20,8 +20,8 @@
           var cookie = window.location.hash.split("#")[1];
           $.getJSON("cookies.json", function(data){
             var d = data[cookie];
-            $("#cookie-name").text(cookie);
-            $("#cookie-vendor").text(d.vendor);
+            $(".cookie-name").text(cookie);
+            $(".cookie-vendor").text(d.vendor);
             $("#cookie-description").text(d.description);
           });
         }
