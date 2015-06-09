@@ -70,5 +70,11 @@
 		"vendor":"any",
 		"description":"Used to store if the user accepted the cookie notice.",
 		"time":"Permanent"
+	},
+	"PHPSESSID":{
+		"type":"Strictly Necessary",
+		"vendor":"any",
+		"description":"Used by PHP to store sessions",
+		"time":"Session"
 	}
 }
