@@ -1,80 +1,268 @@
 {
-	"__utmt":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"__utma":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"__utmb":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"__utmc":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"__utmz":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"_ga":{
-		"type":"Technical",
-		"vendor":"Google Analytics",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"qtrans_cookie_test":{
-		"vendor":"Wordpress",
-		"type":"Technical",
-		"description":"Cookie used to test the predefined language of the browser",
-		"time":"session"
-	},
-	"post_dcm":{
-		"type":"Technical",
-		"vendor":"po.st",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"post_uuid":{
-		"type":"Technical",
-		"vendor":"po.st",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"UID":{
-		"type":"Technical",
-		"vendor":"scorecardresearch.com",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"UIDR":{
-		"type":"Technical",
-		"vendor":"scorecardresearch.com",
-		"description":"Used to throttle the request rate for the service - limiting the collection of data on high traffic sites",
-		"time":"10 minutes"
-	},
-	"cookie_notice_accepted":{
-		"type":"Technical",
-		"vendor":"any",
-		"description":"Used to store if the user accepted the cookie notice.",
-		"time":"Permanent"
-	},
-	"PHPSESSID":{
-		"type":"Strictly Necessary",
-		"vendor":"any",
-		"description":"Used by PHP to store sessions",
-		"time":"Session"
-	}
+    "__utmt": {
+        "vendor": "Google Analytics",
+        "type": "Performance",
+        "description": "This cookie is set by Google Analytics.  According to their documentation it is used to throttle the request rate for the service - limiting the collection of data on high traffic sites. It expires after 10 minutes"
+    },
+    "__utma": {
+        "vendor": "Google Analytics",
+        "type": "Performance",
+        "description": "This is one of the four main cookies set by the Google Analytics service which enables website owners to track visitor behaviour and measure site performance. This cookie lasts for 2 years by default and distinguishes between users and sessions. It it used to calculate new and returning visitor statistics. The cookie is updated every time data is sent to Google Analytics. The lifespan of the cookie can be customised by website owners."
+    },
+    "__utmb": {
+        "vendor": "Google Analytics",
+        "type": "Performance",
+        "description": "This is one of the four main cookies set by the Google Analytics service which enables website owners to track visitor behaviour and measure site performance. This cookie determines new sessions and visits and expires after 30 minutes. The cookie is updated every time data is sent to Google Analytics. Any activity by a user within the 30 minute life span will count as a single visit, even if the user leaves and then returns to the site. A return after 30 minutes will count as a new visit, but a returning visitor."
+    },
+    "__utmc": {
+        "vendor": "Google Analytics",
+        "type": "Performance",
+        "description": "This is one of the four main cookies set by the Google Analytics service which enables website owners to track visitor behaviour and measure site performance. It is not used in most sites but is set to enable interoperability with the older version of Google Analytics code known as Urchin.  In this older versions this was used in combination with the __utmb cookie to identify new sessions/visits for returning visitors. When used by Google Analytics this is always a Session cookie which is destroyed when the user closes their browser. Where it is seen as a Persistent cookie it is therefore likely to be a different technology setting the cookie."
+    },
+    "__utmz": {
+        "vendor": "Google Analytics",
+        "type": "Performance",
+        "description": "This is one of the four main cookies set by the Google Analytics service which enables website owners to track visitor behaviour measure of site performance. This cookie identifies the source of traffic to the site - so Google Analytics can tell site owners where visitors came from when arriving on the site. The cookie has a life span of 6 months and is updated every time data is sent to Google Analytics."
+    },
+    "_ga": {
+        "vendor": "Google Universal Analytics",
+        "type": "Performance",
+        "description": "This cookie name is asssociated with Google Universal Analytics - which is a significant update to Google&#39;s more commonly used analytics service. The new service reduces the reliance on cookies in general, and only sets this and one other - _gat, although Google also say data can be collected without setting any cookies. This cookie is used to distinguishes unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.  By default it is set to expire after 2 years, although this is customisable by website owners."
+    },
+    "qtrans_cookie_test": {
+        "vendor": "qTranslate Wordpress plug-in",
+        "type": "Functionality",
+        "description": "Cookie set by the qTranslate Wordpress plug-in used to enable multi-lingual support in a site.  This cookie tests to see if cookies are enabled, so that language preferences can also be stored."
+    },
+    "post_dcm": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "post_uuid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "UID": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "UIDR": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "cookie_notice_accepted": {
+        "type": "Technical",
+        "vendor": "any",
+        "description": "Used to store if the user accepted the cookie notice.",
+        "time": "Permanent"
+    },
+    "PHPSESSID": {
+        "vendor": "PHP",
+        "type": "Strictly Necessary",
+        "description": "Cookie generated by applications based on the PHP language.  This is a general purpose identifier used to maintain user session variables. It is normally a random generated number, how it is used can be specific to the site, but a good example is maintaining a logged-in status for a user between pages."
+    },
+    "cookiesok": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "vc": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "uid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "__atuvs": {
+        "vendor": "AddThis",
+        "type": "Functionality",
+        "description": "This cookie is associated with the AddThis social sharing widget which is commonly embedded in websites to enable visitors to share content with a range of networking and sharing platforms. This is believed to be a new cookie from AddThis which is not yet documented, but has been categorised on the assumption it serves a similar purpose to other cookies set by the service."
+    },
+    "external_24232820_end_user_id": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "RMFD": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "vglnk.Agent.p": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "displayCookieConsent": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "cRepu": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "uit": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "__atuvc": {
+        "vendor": "AddThis",
+        "type": "Functionality",
+        "description": "This cookie  is associated with the AddThis social sharing widget which is commonly embedded in websites to enable visitors to share content with a range of networking and sharing platforms. It stores an updated page share count."
+    },
+    "KRTBCOOKIE_107": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "uvc": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "OAX": {
+        "vendor": "Real Media ad network",
+        "type": "Targeting/Advertising",
+        "description": "Ad targeting cookie, associated with the 24/7 Real Media ad network."
+    },
+    "loc": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "xtant": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "ssid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "__llooggrvc__": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "hph": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "xtan": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "BriligContact": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "di2": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "eas_uid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "is_uuid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "KRTBCOOKIE_22": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "bt": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "GAPS": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "xtvrn": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "csrftoken": {
+        "vendor": "Django",
+        "type": "Strictly Necessary",
+        "description": "This cookie is associated with the Django web development platform for Python. It is designed to help protect a site against at particular type of software attack on web forms."
+    },
+    "dt": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "_gat": {
+        "vendor": "Google Universal Analytics",
+        "type": "Performance",
+        "description": "This cookie name is associated with Google Universal Analytics, according to documentation it is used to throttle the request rate - limiting the collection of data on high traffic sites. It expires after 10 minutes."
+    },
+    "optimizelySegments": {
+        "vendor": "",
+        "type": "Performance",
+        "description": "This cookie is set by the Optimizely website optimisation plaftform.  It holds audience segmentation information for a visitor."
+    },
+    "optimizelyEndUserId": {
+        "vendor": "Optimizely",
+        "type": "Performance",
+        "description": "Cookie set by the Optimizely website optimisation plaftform. This cookie is a unique user identifier"
+    },
+    "guest_id": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "adm_DLDdwoAvzlrj4hE36dBo-g": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "trx": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "bp-activity-oldestpage": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "ucid": {
+        "vendor": "",
+        "type": "Unknown",
+        "description": "There is not yet any general information about this cookie based on its name only. If you have any information about this cookie, please get in touch."
+    },
+    "optimizelyBuckets": {
+        "vendor": "Optimizely",
+        "type": "Performance",
+        "description": "Cookie set by the Optimizely website optimisation plaftform. Used to store the page variants assigned to a user for A/B performance testing, to ensure the user gets a consistent experience"
+    },
+    "__cfduid": {
+        "vendor": "CloudFlare",
+        "type": "Strictly Necessary",
+        "description": "Cookie assoiated with sites using CloudFlare, used to speed up page load times. According to CloudFlare it is used to override any security restrictions based on the IP address the visitor is coming from. It does not contain any user identification information."
+    }
 }
